@@ -34,8 +34,8 @@ app.post("/j",function(req,res){
 
 })
 
-app.get("/",function(req,res){
-    res.download("./uploads/");
+app.get("/single",function(req,res){
+    res.download("./uploads/photo-1533450718592-29d45635f0a9.jpg");
 })
 
 app.listen(5000,()=>{
